@@ -9,7 +9,7 @@ cout << "Masukan angka 2 : ";
 cin >> angka2;
 tambah = angka1 + angka2;
 kali = angka1 * angka2;
-kurangi1 = angka2 - angka1;           
+kurangi1 = angka2 - angka1;
 kurangi2 = angka1 - angka2;
 cout <<"-------------------------------------\n";
 cout <<" Hasil penjumlahan	:"<<angka1<<" + "<<angka2<<" = "<<tambah<<endl;
