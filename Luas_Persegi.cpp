@@ -7,14 +7,14 @@
 
 void main()
 {
-system("title Program Luas Kubus [Versi 1.1] - [github.com/indonesia08]");
+system("title Program Luas Persegi [Versi 1.1] - [github.com/indonesia08]");
 system("color 61");
 int sisi, luas;
 char ulang(1);
 do
 {
 cout <<"________________________________________________________________________\n";
-cout <<"Program Hitung Luas Kubus C++ - [github.com/indonesia08]\n";
+cout <<"Program Hitung Luas Persegi C++ - [github.com/indonesia08]\n";
 cout <<"________________________________________________________________________\n\n\n";
 cout << "Masukan panjang sisi persegi =";
 cin >> sisi;
@@ -29,7 +29,7 @@ cout <<"By Yusuf\n\n";
 ofstream textbaru;
 textbaru.open("/Cetak_luas_persegi.ay");
 textbaru<<"_____________________________________________________________\n"<<endl;
-textbaru<<"Program Hitung Luas Kubus C++ - [github.com/indonesia08]\n"<<endl;
+textbaru<<"Program Hitung Luas Persegi C++ - [github.com/indonesia08]\n"<<endl;
 textbaru<<"_____________________________________________________________\n\n\n"<<endl;
 textbaru<<"Masukan panjang sisi persegi = "<<sisi<<endl;
 textbaru<<"-------------------------------------\n"<<endl;
