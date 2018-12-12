@@ -53,9 +53,7 @@ main()
             <<"Masukan Pembayaran      : "<<bayar<<endl
             <<"-------------------------------"<<endl
             <<"\nUang Kembali            : "<<kembali<<endl
-            <<"\n\nList Anggota Kelompok   :"
-            <<"\n1.Ade Suhendar\n2.Abeng Hermawan\n3.Agung Kresna Bayu"
-            <<"\n4.Akhmad Yusuf\n5.Hilman Ramadian\n6.Muhammad Fauzi\n\n"
+            <<"\nOleh Yusuf\n\n"
             <<endl;
             cetak_struk.close();
             system("notepad cetak_struk.TXT");
@@ -70,9 +68,7 @@ main()
     else if (ulang =='A' || ulang =='a')
         {
           system ("color 1A");
-           cout<<"\n\nList Anggota Kelompok";
-           cout<<"\n1.Ade Suhendar\n2.Abeng Hermawan\n3.Agung Kresna Bayu";
-           cout<<"\n4.Akhmad Yusuf\n5.Hilman Ramadian\n6.MuhammadFauzi\n\n";
+           cout<<"\nOleh Yusuf\n\n";
            goto reload;
        }
     else
